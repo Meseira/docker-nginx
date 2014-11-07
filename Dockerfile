@@ -9,9 +9,9 @@ RUN apt-key adv --keyserver pgp.mit.edu --recv-keys 573BFD6B3D8FBC641079A6ABABF5
 RUN apt-get update && apt-get install -y nginx=1.7.7-1~wheezy
 
 # Volumes
-# /etc/nginx/conf.d : virtual host configuration files
+# /etc/nginx/conf.d : configuration files
 # /var/log/nginx : log files
-VOLUME ["/etc/nginx/conf.d", "/var/log/nginx"]
+VOLUME ["/etc/nginx", "/var/log/nginx"]
 
 EXPOSE 80 443
 

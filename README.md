@@ -3,7 +3,7 @@ Supported tags and respective `Dockerfile` links
 
 * [`latest` *(Dockerfile)*][1]
 
-This build if freely adapted from the [official build of Nginx][2]. The version of Nginx provided in this image is the *mainline version* and comes from the [official repository][3]. Currently, the version is `1.7.7`.
+This build is freely adapted from the [official build of Nginx][2]. The version of Nginx provided in this image is the *mainline version* and comes from the [official repository][3]. Currently, the version is `1.7.7`.
 
 Some details
 ============
